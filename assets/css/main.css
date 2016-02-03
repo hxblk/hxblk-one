@@ -148,14 +148,54 @@
 		}
 
 	.logo {
-		max-width: 50%; 
+		max-width: 25%; 
 		display:block; 
 		height: auto;
 		margin-bottom: 2em;
 	}
 
-	#mce-EMAIL {
+/* MAILCHIMP */
+
+	#mc_embed_signup{
+		background:#fff; 
+		clear:left; 
+		font:14px Lato; 
 		max-width: 50%;
+		margin-top: 2em;
+	}
+	#mc_embed_signup form {
+		padding: 0;
+	}
+	#mc_embed_signup .mc-field-group input {
+		padding: 0 10px;
+	}
+	#mc_embed_signup .mc-field-group {
+		width: 100%;
+	}
+	.mc-field-group {
+		font-family: 'Lato', sans-serif;
+	}
+	#mc_embed_signup .button {
+	    background-color: #000;
+	    border-radius: 1px;
+	    border: 0;
+	    color: #ffffff !important;
+	    cursor: pointer;
+	    display: inline-block;
+	    font-weight: 400;
+	    height: 2.75em;
+	    line-height: 2.75em;
+	    padding: 0 1.125em;
+	    text-align: center;
+	    text-decoration: none;
+	    white-space: nowrap;
+	    margin-top: 1em;
+	}
+	#mc_embed_signup input.mce_inline_error {
+		border-color: #ff0000 !important;
+	}
+	#mc_embed_signup div.mce_inline_error {
+		background-color: #ff0000 !important;
 	}
 
 /* BG */
@@ -381,7 +421,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -484,7 +524,7 @@
 	header p {
 		color: #000;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0;
 	}
 
 	header h2 + p {
@@ -1176,6 +1216,10 @@
 			}
 
 			#mce-EMAIL {
+				max-width: 100%;
+			}
+
+			#mc_embed_signup {
 				max-width: 100%;
 			}
 
